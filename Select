@@ -1,0 +1,3 @@
+select * from employe38;
+select distinct age,salary from employe38;
+select name,age,city from employe38;
