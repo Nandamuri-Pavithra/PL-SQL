@@ -1,0 +1,3 @@
+select name,salary where id=1204 from employe38;
+SELECT * FROM employe38 where salary=20000;
+SELECT * FROM Customers WHERE Country = 'Mexico';
