@@ -1,0 +1,4 @@
+SELECT name ,city from employe38 where regexp_like(name,'r');
+select city from employe38 where regexp_like(city,'^a');
+select id,name,city from employe38 where regexp_like(name,'^g|^a');
+select name from employe38 where regexp_like(name,'i{2}','i');
