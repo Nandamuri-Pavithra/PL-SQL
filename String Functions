@@ -1,0 +1,9 @@
+SELECT rollno,sname, CONCAT('19',rollno) regid FROM student order by rollno;
+
+SELECT CHARACTER_LENGTH('LANGUAGE LEARNING');
+
+SELECT ascii('t');
+
+LENGTH('ALPHABETS');
+
+SELECT SUBSTRING('pavithra', 4, 1)
