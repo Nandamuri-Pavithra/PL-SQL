@@ -1,0 +1,23 @@
+create table emp (
+    eno number(5) primary key,
+    ename varchar2(20) not null,
+    deptno number(3) unique);
+    
+create table dept (
+    deptno number(5) primary key,
+    dname varchar2(20) not null,
+    dloc number(3) unique);
+
+insert into emp values(1,'pavithra',10);
+insert into emp values(2,'sri',20);
+insert into emp values(3,'sindhu',30);
+insert into emp values(4,'ritika',40);
+insert into emp values(5,'nupur',50);
+
+insert into dept values(10,'it',901);
+insert into dept values(20,'cst',902);
+insert into dept values(30,'ece',903);
+insert into dept values(40,'civil',904);
+insert into dept values(50,'cse',905);
+
+select e.eno, e.ename, d.deptno from emp e, dept d where e.deptno= d.deptno;
